@@ -47,6 +47,6 @@
 <a name="funcionalidades"></a>
 
 :hammer_and_wrench:Funcionalidades:<br>
-<img src="https://imgur.com/a/h0mYGpJ">
+<img src="https://www.imagemhost.com.br/images/2021/04/08/backlog.jpg" alt="backlog.jpg" border="0" />
 
 
