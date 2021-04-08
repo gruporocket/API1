@@ -7,8 +7,6 @@
  <a href="#publico">Público-Alvo</a> • 
  <a href="#requisitos">Requisitos</a> • 
  <a href="#prototipo">Protótipo</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href="#autor">Autor</a>
 </p>
 
 <a name="objetivo"></a>
@@ -31,5 +29,5 @@
 <hr>
 <a name="prototipo"></a>
 :link:Clique no link abaixo para visualizar o Protótipo que foi validado pelo cliente no kick-off do Projeto:<br>
-<a href="https://sites.google.com/view/prototipoapi6/" target="_blank">Protótipo do Site</a>
+<a href="https://sites.google.com/view/prototipoapi6/">Protótipo do Site</a>
 
