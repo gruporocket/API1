@@ -7,6 +7,7 @@
  <a href="#publico">Público-Alvo</a> • 
  <a href="#requisitos">Requisitos</a> • 
  <a href="#prototipo">Protótipo</a> • 
+ <a href="#funcionalidades">Funcionalidades</a> •
 </p>
 
 <a name="objetivo"></a>
@@ -43,6 +44,9 @@
 
 <hr>
 
-:hammer_and_wrench:Funcionalidades:
+<a name="funcionalidades"></a>
+
+:hammer_and_wrench:Funcionalidades:<br>
+<img src="https://imgur.com/a/h0mYGpJ">
 
 
