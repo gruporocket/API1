@@ -8,7 +8,9 @@
  <a href="#requisitos">Requisitos</a> • 
  <a href="#prototipo">Protótipo</a> • 
  <a href="#funcionalidades">Funcionalidades</a> •
- <a href="#calendario">Planejamento de Entregas</a>
+ <a href="#calendario">Planejamento de Entregas</a> •
+ <a href="#tecnologias">Tecnologias</a> •
+ <a href="#equipe">Equipe</a>
 </p>
 
 <a name="objetivo"></a>
@@ -50,7 +52,7 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 
 :hammer_and_wrench:Funcionalidades:
 <br>
-<img src="https://www.imagemhost.com.br/images/2021/04/08/backlog.jpg" alt="backlog.jpg" border="0" />
+<img src="https://www.imagemhost.com.br/images/2021/04/08/backlog.jpg" >
 
 <hr>
 
@@ -69,11 +71,25 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 
 :computer:Tecnologias Utilizadas:<br>
 
-Protótipo:<br>
-<img src="https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2018/06/google-sites-logo.png"><br>
+<img src="https://www.imagemhost.com.br/images/2021/04/08/tecnologias.jpg" width="600px">
 
-Edição de texto:<br>
-<img src="https://www.tmssoftware.com/images/visualstudiocodelogo.png" width="200px">
+<hr>
 
-<img src="https://miro.medium.com/max/600/0*XdLHTLri-4RFAMoO" width="200px">
+<a name="equipe"></a>
 
+:busts_in_silhouette:Equipe:<br>
+
+<ul>
+ <li>Francisco Quirino - Desenvolvedor Front-End (Scrum Master)</li>
+ <li>Jerre Rodrigues - Desenvolvedor Back-End</li>
+ <li>Juan Freitas - Desenvolvedor Back-End</li>
+ <li>Juliana Ramos - Desenvolvedora Back-End</li>
+ <li>Micael Santos - Desenvolvedor Front-End</li>
+ <li>Paulo Velozo - Desenvolvedor Back-End</li>
+ <li>Richard Soares - Desenvolvedor Front-End</li>
+ </ul>
+
+<hr>
+
+<img src="https://www.imagemhost.com.br/images/2021/04/08/fatecsjc_400x192.png" width="150px" align="center" >
+ 
