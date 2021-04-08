@@ -91,5 +91,5 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 
 <hr>
 
-<img src="https://www.imagemhost.com.br/images/2021/04/08/fatecsjc_400x192.png" width="150px" align="center" >
+<img src="https://www.imagemhost.com.br/images/2021/04/08/fatecsjc_400x192.png" width="100px" >
  
