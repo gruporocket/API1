@@ -8,11 +8,13 @@
  <a href="#requisitos">Requisitos</a> • 
  <a href="#prototipo">Protótipo</a> • 
  <a href="#funcionalidades">Funcionalidades</a> •
+ <a href="#calendario">Planejamento de Entregas</a>
 </p>
 
 <a name="objetivo"></a>
 
-:rocket:Objetivo: Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250 crianças de 0 a 7 anos.
+:rocket:Objetivo:
+Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250 crianças de 0 a 7 anos.
 
 <hr>
 
@@ -46,7 +48,32 @@
 
 <a name="funcionalidades"></a>
 
-:hammer_and_wrench:Funcionalidades:<br>
+:hammer_and_wrench:Funcionalidades:
+<br>
 <img src="https://www.imagemhost.com.br/images/2021/04/08/backlog.jpg" alt="backlog.jpg" border="0" />
 
+<hr>
+
+<a name="calendario"></a>
+
+:calendar:Planejamento de entregas:<br>
+28/03/21 - <a href="https://github.com/gruporocket/sprint1">Sprint 1</a> ☑️ <br>
+18/04/21 - Sprint 2 <br>
+16/05/21 - Sprint 3 <br> 
+05/06/21 - Sprint 4 <br>
+11/06/21 - Apresentação Final <br>
+
+<hr>
+
+<a name="tecnologias"></a>
+
+:computer:Tecnologias Utilizadas:<br>
+
+Protótipo:<br>
+<img src="https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2018/06/google-sites-logo.png"><br>
+
+Edição de texto:<br>
+<img src="https://www.tmssoftware.com/images/visualstudiocodelogo.png" width="300px">
+
+<img src="https://miro.medium.com/max/600/0*XdLHTLri-4RFAMoO" width="300px">
 
