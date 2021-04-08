@@ -73,7 +73,7 @@ Protótipo:<br>
 <img src="https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2018/06/google-sites-logo.png"><br>
 
 Edição de texto:<br>
-<img src="https://www.tmssoftware.com/images/visualstudiocodelogo.png" width="300px">
+<img src="https://www.tmssoftware.com/images/visualstudiocodelogo.png" width="200px">
 
-<img src="https://miro.medium.com/max/600/0*XdLHTLri-4RFAMoO" width="300px">
+<img src="https://miro.medium.com/max/600/0*XdLHTLri-4RFAMoO" width="200px">
 
