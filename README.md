@@ -86,6 +86,8 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
  <li>https://github.com/JuanFreitas094 - Githup do Desenvolvedor</li>
  <li>https://www.linkedin.com/in/juan-freitas-261900b0/ - Linkedin do Desenvolvedor</li>
  <li>Juliana Ramos - Desenvolvedora Back-End</li>
+ <li>https://github.com/JulianaMaria-Lab</li>
+ <li>https://www.linkedin.com/in/juliana-maria-a0b0a0124</li>
  <li>Micael Santos - Desenvolvedor Front-End</li>
  <li>Paulo Velozo - Desenvolvedor Back-End</li>
  <li>Richard Soares - Desenvolvedor Front-End</li>
