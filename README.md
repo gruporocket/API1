@@ -87,7 +87,7 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
  <li>Micael Santos - Desenvolvedor Front-End</li>
  <li>Paulo Velozo - Desenvolvedor Back-End</li>
  <li>Richard Soares - Desenvolvedor Front-End</li>
- <li>github.com/Richardrafael  - Desenvolvedor Front-End</li>
+ <li>https://github.com/Richardrafael  - Desenvolvedor Front-End</li>
  
  </ul>
 
