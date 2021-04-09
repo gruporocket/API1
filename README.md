@@ -81,6 +81,8 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 
 <ul>
  <li>Francisco Quirino - Desenvolvedor Front-End (Scrum Master)</li>
+ <li>Github.com/ciscoquirino</li>
+ <li>https://www.linkedin.com/in/francisco-quirino-4087281b1</li>
  <li>Jerre Rodrigues - Desenvolvedor Back-End</li>
  <li>Juan Freitas - Desenvolvedor Back-End</li>
  <li>https://github.com/JuanFreitas094 - Githup do Desenvolvedor</li>
