@@ -22,14 +22,14 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 
 <a name="publico"></a>
 
-:dart:Público-Alvo:
+<h2><strong>:dart:Público-Alvo:</strong><br></h2>
 
 <ul><li>Pais ou responsáveis de crianças carentes</li>
 <li>Pessoas interessadas em colaborar com a ONG, seja como voluntário de apoio ou voluntário em alguma função específica</li></ul>
 
 <hr>
 
-<a name="requisitos"></a>
+<h2><strong><a name="requisitos"></a></strong><br></h2>
 
 :heavy_check_mark:Requisitos:
 
@@ -41,14 +41,14 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 
 <hr>
 
-<a name="prototipo"></a>
+<h2><strong><a name="prototipo"></a></strong><br></h2>
 
 :link:Clique no link abaixo para visualizar o Protótipo que foi validado pelo cliente no kick-off do Projeto:<br>
 <a href="https://sites.google.com/view/prototipoapi6/">Protótipo do Site</a>
 
 <hr>
 
-<a name="funcionalidades"></a>
+<h2><strong><a name="funcionalidades"></a></strong><br></h2>
 
 :hammer_and_wrench:Funcionalidades:
 <br>
