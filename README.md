@@ -1,4 +1,4 @@
-<h1 align="center">Site Institucional "Escola Vó Maria Félix"</h1>
+<h1> align="center">Site Institucional "Escola Vó Maria Félix"</h1>
 
 <h4>Projeto Integrador do Grupo Rocket, formado por alunos do 1º semestre de Análise e Desenvolvimento de Sistemas da FATEC São José dos Campos de 2021.</h4>
 
