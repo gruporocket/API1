@@ -15,7 +15,7 @@
 
 <a name="objetivo"></a>
 
-:rocket:Projeto:
+:rocket:Projeto:<br>
 Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250 crianças de 0 a 7 anos.
 
 <hr>
