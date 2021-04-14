@@ -40,7 +40,7 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 </ul>
 
 <hr>
-
+<h2><strong>Protótipo:</strong><br></h2>
 <a name="prototipo"></a>
 
 :link:Clique no link abaixo para visualizar o Protótipo que foi validado pelo cliente no kick-off do Projeto:<br>
