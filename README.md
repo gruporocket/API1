@@ -52,7 +52,7 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 
 <h2><strong>:hammer_and_wrench:Funcionalidades:</strong><br></h2>
 <br>
-<img src="" >
+<img src="tela fj.PNG" >
 
 <hr>
 
