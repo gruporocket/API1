@@ -29,9 +29,9 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 
 <hr>
 
-<h2><strong><a name="requisitos"></a></strong><br></h2>
+<a name="requisitos"></a>
 
-:heavy_check_mark:Requisitos:
+<h2><strong>:heavy_check_mark:Requisitos:</strong><br></h2>
 
 <ul>
 <li>Cadastro de participantes</li>
