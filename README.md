@@ -80,21 +80,14 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 <h2><strong>:busts_in_silhouette:Equipe:</strong><br></h2>
 
 <ul>
- <li>Francisco Quirino - Desenvolvedor Front-End (Scrum Master)</li>
- <li>https://github.com/ciscoquirino - Github do Desenvolvedor</li>
- <li>https://www.linkedin.com/in/francisco-quirino-4087281b1 - Linkedin do Desenvolvedor </li>
+ <li>Francisco Quirino - Desenvolvedor Front-End (Scrum Master) <a href="https://github.com/ciscoquirino"> Github |</a><a href="https://www.linkedin.com/in/francisco-quirino-4087281b1"> LinkedIn</a></li>
  <li>Jerre Rodrigues - Desenvolvedor Back-End</li>
- <li>Juan Freitas - Desenvolvedor Back-End</li>
- <li>https://github.com/JuanFreitas094 - Githup do Desenvolvedor</li>
- <li>https://www.linkedin.com/in/juan-freitas-261900b0/ - Linkedin do Desenvolvedor</li>
- <li>Juliana Ramos - Desenvolvedora Back-End</li>
- <li>https://github.com/JulianaMaria-Lab - Github da Desenvolvedora</li>
- <li>https://www.linkedin.com/in/juliana-maria-a0b0a0124 - Linkedin da Desenvolvedora</li>
+ <li>Juan Freitas - Desenvolvedor Back-End <a href="https://github.com/JuanFreitas094">Github |</a><a href="https://www.linkedin.com/in/juan-freitas-261900b0/"> LinkedIn</a></li>
+ <li>Juliana Ramos - Desenvolvedora Back-End <a href="https://github.com/JulianaMaria-Lab">Github |</a><a href="https://www.linkedin.com/in/juliana-maria-a0b0a0124"> LinkedIn</a></li>
  <li>Micael Santos - Desenvolvedor Front-End</li>
  <li>Paulo Velozo - Desenvolvedor Back-End</li>
- <li>Richard Soares - Desenvolvedor Front-End</li>
- <li>https://github.com/Richardrafael  - Github do Desenvolvedor</li>
- 
+ <li>Richard Soares - Desenvolvedor Front-End <a href="https://github.com/Richardrafael">Github</a></li>
+
  </ul>
 
 <hr>
