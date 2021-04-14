@@ -48,9 +48,9 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 
 <hr>
 
-<h2><strong><a name="funcionalidades"></a></strong><br></h2>
+<a name="funcionalidades"></a>
 
-:hammer_and_wrench:Funcionalidades:
+<h2><strong>:hammer_and_wrench:Funcionalidades:</strong><br></h2>
 <br>
 <img src="https://www.imagemhost.com.br/images/2021/04/08/backlog.jpg" >
 
@@ -58,7 +58,7 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 
 <a name="calendario"></a>
 
-:calendar:Planejamento de entregas:<br>
+<h2><strong>:calendar:Planejamento de entregas:</strong><br></h2>
 28/03/21 - <a href="https://github.com/gruporocket/sprint1">Sprint 1</a> ☑️ <br>
 18/04/21 - Sprint 2 <br>
 16/05/21 - Sprint 3 <br> 
@@ -69,7 +69,7 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 
 <a name="tecnologias"></a>
 
-:computer:Tecnologias Utilizadas:<br>
+<h2><strong>:computer:Tecnologias Utilizadas:</strong><br></h2>
 
 <img src="https://www.imagemhost.com.br/images/2021/04/08/tecnologias.jpg" width="600px">
 
@@ -77,19 +77,19 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 
 <a name="equipe"></a>
 
-:busts_in_silhouette:Equipe:<br>
+<h2><strong>:busts_in_silhouette:Equipe:</strong><br></h2>
 
 <ul>
  <li>Francisco Quirino - Desenvolvedor Front-End (Scrum Master)</li>
- <li>https://github.com/ciscoquirino</li>
- <li>https://www.linkedin.com/in/francisco-quirino-4087281b1</li>
+ <li>https://github.com/ciscoquirino - Github do Desenvolvedor</li>
+ <li>https://www.linkedin.com/in/francisco-quirino-4087281b1 - Linkedin do Desenvolvedor </li>
  <li>Jerre Rodrigues - Desenvolvedor Back-End</li>
  <li>Juan Freitas - Desenvolvedor Back-End</li>
  <li>https://github.com/JuanFreitas094 - Githup do Desenvolvedor</li>
  <li>https://www.linkedin.com/in/juan-freitas-261900b0/ - Linkedin do Desenvolvedor</li>
  <li>Juliana Ramos - Desenvolvedora Back-End</li>
- <li>https://github.com/JulianaMaria-Lab</li>
- <li>https://www.linkedin.com/in/juliana-maria-a0b0a0124</li>
+ <li>https://github.com/JulianaMaria-Lab - Github do Desenvolvedor</li>
+ <li>https://www.linkedin.com/in/juliana-maria-a0b0a0124 - Linkedin do Desenvolvedor</li>
  <li>Micael Santos - Desenvolvedor Front-End</li>
  <li>Paulo Velozo - Desenvolvedor Back-End</li>
  <li>Richard Soares - Desenvolvedor Front-End</li>
