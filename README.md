@@ -66,7 +66,10 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 
 <img src="https://www.imagemhost.com.br/images/2021/04/15/sprintbacklog1.jpg" width="500px" > <br>
 
-18/04/21 - Sprint 2 <br>
+18/04/21 - Sprint 2 ☑️ <br>
+
+<a href="https://github.com/gruporocket/API1/releases/tag/sprint2">Clique aqui para ver os arquivos e demonstração das funcionalidades entregues na Sprint 2</a>  <br>
+
 <img src="https://www.imagemhost.com.br/images/2021/04/15/sprintbacklog2.jpg" width="500px" > <br>
 
 16/05/21 - Sprint 3 <br> 
