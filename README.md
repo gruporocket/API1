@@ -60,7 +60,10 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 
 <h2><strong>:calendar:Planejamento de entregas:</strong><br></h2>
 
-28/03/21 - <a href="https://github.com/gruporocket/sprint-1">Sprint 1</a> ☑️ <br>
+28/03/21 - Sprint 1 ☑️ <br>
+
+<a href="https://github.com/gruporocket/API1/releases/tag/sprint1">Clique aqui para ver os arquivos e demonstração das funcionalidades entregues na Sprint 1</a>  <br>
+
 <img src="https://www.imagemhost.com.br/images/2021/04/15/sprintbacklog1.jpg" width="500px" > <br>
 
 18/04/21 - Sprint 2 <br>
