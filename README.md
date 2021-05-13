@@ -74,7 +74,7 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 
 16/05/21 - Sprint 3 <br> 
 
-<a href="https://github.com/gruporocket/API1/releases/tag/sprint3">Clique aqui para ver os arquivos e demonstração das funcionalidades entregues na Sprint 3</a>  <br>
+<a href="https://github.com/gruporocket/API1/releases/tag/Sprint3"> Clique aqui para ver os arquivos e demonstração das funcionalidades entregues na Sprint 3 </a><br>
 
 <img src="https://www.imagemhost.com.br/image/2YAxNG" width="500px" > <br>
 
