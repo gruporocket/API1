@@ -52,7 +52,18 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 
 <h2><strong>:hammer_and_wrench:Funcionalidades:</strong><br></h2>
 <br>
-<img src="https://www.imagemhost.com.br/images/2021/04/18/Projeto-Integrador.jpg" width="600px" />
+
+<hr>
+
+<a name="backlog"></a>
+<h2><strong>:bar_chart:Backlog:</strong><br></h2>
+
+<p><img src="https://www.imagemhost.com.br/images/2021/05/16/Backlog.png" width:"100px"></p>
+<br><img src="https://www.imagemhost.com.br/images/2021/05/16/Backlog-priorizacao.png" width:"100px"> <br>
+
+<h4> MVP </h4>
+
+<p><img src="https://www.imagemhost.com.br/images/2021/05/16/mvp.png" widht:"500px"></p>
 
 <hr>
 
@@ -76,7 +87,7 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 
 <a href="https://github.com/gruporocket/API1/releases/tag/Sprint3"> Clique aqui para ver os arquivos e demonstração das funcionalidades entregues na Sprint 3 </a><br>
 
-<img src="https://www.imagemhost.com.br/images/2021/05/13/Sprint-Backlog-3.png" width = "500px"> <br>
+<img src="https://www.imagemhost.com.br/images/2021/05/16/Sprint-Backlog-3.png" width = "500px"> <br>
 
 05/06/21 - Sprint 4 <br>
 11/06/21 - Apresentação Final <br>
