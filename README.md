@@ -88,6 +88,8 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 
 <img src="https://www.imagemhost.com.br/images/2021/05/17/cardsprint4.jpg" width="500px"> <br>
 
+<a href="https://github.com/gruporocket/API1/releases/tag/Sprint-4"> Clique aqui para ver os arquivos e demonstração das funcionalidades entregues na Sprint 4 </a><br>
+
 11/06/21 - Apresentação Final <br>
 
 <hr>
@@ -147,13 +149,13 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 <h2><strong>:busts_in_silhouette:Equipe:</strong><br></h2>
 
 <ul>
- <li>Francisco Quirino - Desenvolvedor Front-End (Scrum Master) <a href="https://github.com/ciscoquirino"> Github |</a><a href="https://www.linkedin.com/in/francisco-quirino-4087281b1"> LinkedIn</a></li>
- <li>Jerre Rodrigues - Desenvolvedor Back-End <a href="https://github.com/jerreRodrigues">Github</a></li>
- <li>Juan Freitas - Desenvolvedor Back-End <a href="https://github.com/JuanFreitas094">Github |</a><a href="https://www.linkedin.com/in/juan-freitas-261900b0/"> LinkedIn</a></li>
- <li>Juliana Ramos - Desenvolvedora Back-End <a href="https://github.com/JulianaMaria-Lab">Github |</a><a href="https://www.linkedin.com/in/juliana-maria-a0b0a0124"> LinkedIn</a></li>
- <li>Micael Santos - Desenvolvedor Front-End</li>
- <li>Paulo Velozo - Desenvolvedor Back-End</li>
- <li>Richard Soares - Desenvolvedor Front-End <a href="https://github.com/Richardrafael">Github</a></li>
+ <li>Francisco Quirino (Scrum Master) <a href="https://github.com/ciscoquirino"> Github |</a><a href="https://www.linkedin.com/in/francisco-quirino-4087281b1"> LinkedIn</a></li>
+ <li>Jerre Rodrigues <a href="https://github.com/jerreRodrigues">Github</a></li>
+ <li>Juan Freitas  <a href="https://github.com/JuanFreitas094">Github |</a><a href="https://www.linkedin.com/in/juan-freitas-261900b0/"> LinkedIn</a></li>
+ <li>Juliana Ramos <a href="https://github.com/JulianaMaria-Lab">Github |</a><a href="https://www.linkedin.com/in/juliana-maria-a0b0a0124"> LinkedIn</a></li>
+ <li>Micael Santos </li>
+ <li>Paulo Velozo <a href="https://www.linkedin.com/in/paulo-velozo-60a5661ab">LinkedIn</a></li>
+ <li>Richard Soares <a href="https://github.com/Richardrafael">Github</a></li>
 
  </ul>
 
