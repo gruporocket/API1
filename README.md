@@ -10,6 +10,7 @@
  <a href="#funcionalidades">Funcionalidades</a> •
  <a href="#calendario">Planejamento de Entregas</a> •
  <a href="#tecnologias">Tecnologias</a> •
+ <a href="#acesso">Acesso ao Site</a> •
  <a href="#equipe">Equipe</a>
 </p>
 
@@ -96,6 +97,48 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 <h2><strong>:computer:Tecnologias Utilizadas:</strong><br></h2>
 
 <img src="https://www.imagemhost.com.br/images/2021/04/08/tecnologias.jpg" width="600px">
+
+<a name="acesso"></a>
+## :computer: Acesso ao Site:
+
+
+**Instalação:**
+
+
+ - Instalar servidor web de sua preferência. _Sugestão_:
+
+ ```
+ [Xampp](https://www.apachefriends.org/pt_br/index.html)
+ ```
+
+ - Instalar IDE (Ambiente de Desenvolvimento Integrado) de sua preferência. _Sugestão_:
+
+ ```
+ [Visual Studio](https://visualstudio.microsoft.com/pt-br/)
+ [Notepad++](https://notepad-plus-plus.org/)
+ ```
+
+- Instalar Composer e CakePHP 
+
+```
+[Composer] (https://getcomposer.org/download/)
+[CakePHP] (https://book.cakephp.org/4/en/installation.html)
+```
+
+ - Para ter acesso ao Banco de Dados, solicitamos que faça a inserção do arquivo abaixo no serviço de banco de dados (Php MyAdmin, MySQL etc..) de sua preferência.
+ 
+ ```
+ vomariafelix.sql
+ ```
+
+#### Execute a aplicação
+
+ - Acesse o servidor:
+
+ ```
+ http://localhost/...
+ ```
+
 
 <hr>
 
