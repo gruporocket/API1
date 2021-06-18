@@ -1,6 +1,6 @@
 <?php
 
-include("conexao_especifico.php");
+include("conexao.php");
 
 $nome = filter_input(INPUT_POST,'nome', FILTER_SANITIZE_STRING);
 $sexo = filter_input(INPUT_POST,'sexo', FILTER_SANITIZE_STRING);

@@ -1,6 +1,6 @@
 <?php
 
-include("conexao_participantes.php");
+include("conexao.php");
 
 $nome = filter_input(INPUT_POST,'nome', FILTER_SANITIZE_STRING);
 $sexo = filter_input(INPUT_POST,'sexo', FILTER_SANITIZE_STRING);
@@ -36,7 +36,7 @@ $email = filter_input(INPUT_POST,'email', FILTER_SANITIZE_EMAIL);
 //echo "Endereço: $endereço <br>";
 //echo "E-mail: $email <br>";
 
-$result_participantes = "INSERT INTO participantes (`nome`, `sexo`, `dt_ascimento`, `deficiencia`, `descreva`, `renda`, `nome_responsavel`, `sexo_responsavel`, `grau_parentesco`, `grau`, `cpf`, `telefone`, `dt_nascimento_responsavel`, `endereco`, `email`) VALUES ('$nome', '$sexo', '$datanasc', '$deficiencia', '$descreva', '$renda', '$nomer', '$sexor', '$grau', '$escreva', '$cpf', '$telefone', '$data', '$endereço', '$email')";
+$result_participantes = "INSERT INTO participantes (`nome`, `sexo`, `dt_nascimento`, `deficiencia`, `descreva`, `renda`, `nome_responsavel`, `sexo_responsavel`, `grau_parentesco`, `grau`, `cpf`, `telefone`, `dt_nascimento_responsavel`, `endereco`, `email`) VALUES ('$nome', '$sexo', '$datanasc', '$deficiencia', '$descreva', '$renda', '$nomer', '$sexor', '$grau', '$escreva', '$cpf', '$telefone', '$data', '$endereço', '$email')";
 $resultado_participantes = mysqli_query($conn, $result_participantes);
 //echo "Resultado: " . $resultado_participantes . " - Query: ". $result_participantes;
 if(!$resultado_participantes){

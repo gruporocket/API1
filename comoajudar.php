@@ -1,15 +1,14 @@
 <?php
 session_start();
-//include('verifica_login.php');
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-    content="width=device-width, inicial-scale=1.0">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
     <title>Como Ajudar</title>
-    <link rel="stylesheet" type="text/css" href="style3.php">
+    <link rel="stylesheet" type="text/css" href="./css/style_comoajudar.css">
+	<link rel="icon" href="favicon.ico">
 	<style type="text/css"> 
     a:link 
     { 
@@ -48,23 +47,14 @@ session_start();
             <!--página de doacoes ainda não criada-->
             <br><br>
             <p>Tem alguma outra ideia de como ser nosso parceiro? Entre em contato e envie sua sugestão</p>
-            <a class="botao" href="#">Contato</a>
+            <a class="botao" href="contato.php">Contato</a>
             <br><br>
-            <!--página de contato ainda não criada-->
     </section>
     </div>
 
-    <hr width="100%">
+<?php
+	include("_footer.php");
+?>
 
-    <section id="contato">
-        <p><strong>CECOI Vó Maria Félix</strong><br>
-        Rua Carlos Nunes de Paula, 1172 - Jardim Imperial - São José dos Campos <br>
-        Tel: (12) 3966 2823 <br>
-        <br>
-        <a class="face" href="https://www.facebook.com/cecoivomariafelix" target="_blank"><img src="imagens\facebook.png" width="50px"></a>
-        <a class="youtube" href="https://www.youtube.com/channel/UCB-99VOkEEM07VF4VVsP7_g" target="_blank"><img src="imagens\youtube.png" width="50px"></a>
-    </section>
-    <hr width="100%">
-    <footer>Desenvolvido por Grupo Rocket 2021</footer>
 </body>
 </html>

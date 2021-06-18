@@ -1,6 +1,5 @@
 <?php
-session_start();
-//include('verifica_login.php');
+    include_once("recaptchalib.php");
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -8,21 +7,23 @@ session_start();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Voluntários Específicos e Projetos</title>
-    <link rel="stylesheet" type="text/css" href="style2.php">
+    <title>Voluntários de Específicos e Projetos</title>
+	<script src="https://www.google.com/recaptcha/api.js?hl=pt-BR"></script>																		
+    <link rel="stylesheet" type="text/css" href="./css/style_especifico.css">
+	<link rel="icon" href="favicon.ico">
 	<style type="text/css"> 
-    a:link 
+	 a:link 
     { 
      text-decoration:none; 
     } 
 	</style>
 </head>
 <body>
-    <!--Aqui começa o cabeçalho do site, essa parte é igual em todas as páginas-->
-<?php
-	include("_header.php");
+
+<?php 
+     
+	 include("_header.php");
 ?>
-    <!--Fim do cabeçalho-->
     <div>
 	  <hr>
         <h2>Cadastro de Voluntários Específicos e Projetos</h2>
@@ -73,21 +74,29 @@ session_start();
                 <label><strong>Se sim, descreva o projeto:</strong></label>
                 <input type="text" name="projdescricao" id="projdescricao">
             </div>
+<div class="g-recaptcha" data-sitekey="6LfJqPIUAAAAAF0gPthIM5MT7bqKjbzeV6RAR8W-"></div>
+<?php
+        $secret = "6LfJqPIUAAAAADqcPDNbqnrfBPBv1O1Hp9ryFpsg";
 
+        $response = null;
+        $reCaptcha = new reCaptcha($secret);
+		   
+
+        if(isset($_POST['g-recaptcha-response'])){
+            $response = $reCaptcha->verifyResponse($_SERVER['REMOTE_ADDR'], $_POST['g-recaptcha-response']);
+        }
+
+        if($response != null && $response->success){
+            echo "Pronto";
+        }
+
+?>																					   
         </fieldset>
-        <b><button type="submit" name="enviar" class="botao" >Enviar</button>
+        <b><button type="submit" name="enviar" class="botao">Enviar</b></button>
     </form>
 
-<hr width="100%">
-    <section id="contato">
-        <p><strong>CECOI Vó Maria Félix</strong><br>
-        Rua Carlos Nunes de Paula, 1172 - Jardim Imperial - São José dos Campos <br>
-        Tel: (12) 3966 2823 <br>
-        <br>
-        <a class="face" href="https://www.facebook.com/cecoivomariafelix" target="_blank"><img src="imagens\facebook.png" width="50px"></a>
-        <a class="youtube" href="https://www.youtube.com/channel/UCB-99VOkEEM07VF4VVsP7_g" target="_blank"><img src="imagens\youtube.png" width="50px"></a>
-    </section>
-    <hr width="100%">
-    <footer>Desenvolvido por Grupo Rocket 2021</footer>
+<?php
+	include("_footer.php");
+?>
 </body>
 </html>

@@ -1,7 +1,3 @@
-<?php
-session_start();
-//include('verifica_login.php');
-?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -9,20 +5,21 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="stylesheet" type="text/css" href="style2.php">
+    <link rel="stylesheet" type="text/css" href="./css/style_participantes.css">
+	<link rel="icon" href="favicon.ico">
 	<style type="text/css"> 
-    a:link 
+	    a:link 
     { 
      text-decoration:none; 
     } 
 	</style>
 </head>
 <body>
-        <!--Aqui começa o cabeçalho do site, essa parte é igual em todas as páginas-->
-<?php
-	include("_header.php");
+
+<?php 
+     
+	 include("_header.php");
 ?>
-                <!--Fim do cabeçalho-->
      <div>
 	  <hr>
         <h2>Cadastro de Participantes (Alunos)</h2>
@@ -32,7 +29,7 @@ session_start();
         <fieldset class="grupo">
             <div class="campo">
                 <label for="nome"><strong>Nome:</strong></label>
-                <input type="text" name="nome" id="nome" required>
+                <input type="text" name="nome" id="nome" required />
                 <label for="sexo"><strong>Sexo:</strong></label>
                 <select name="sexo" id="sexo" required>
                     <option selected disabled value="">Selecione</option>
@@ -43,22 +40,22 @@ session_start();
 
 			<div class="campo">
                 <label for="data"><strong>Data de Nascimento:</strong></label>
-                <input type="date" name="date" id="date" required >
+                <input type="date" name="date" id="date" required />
             </div>
 
             <div class="campo">
                 <label for="certidao"><strong>Certidão de Nascimento:</strong></label>
-                <input type="number" name="certidao" id="certidao" type="text" required>
+                <input type="number" name="certidao" id="certidao" type="text" required />
             </div>
 
             <div class="campo">
                 <label><strong>Portador de alguma limitação física/mental:</strong></label>
                 <label>
-                    <input type="radio" name="devweb" value="sim">Sim
-                    <input type="text" name="descreva" id="descreva">
+                    <input type="radio" name="devweb" value="sim"/>Sim
+                    <input type="text" name="descreva" id="descreva"/>
                 </label>
                 <label>
-                    <input type="radio" name="devweb" value="nao">Não
+                    <input type="radio" name="devweb" value="nao"/>Não
                 </label>
                 <br>
                 <label><strong>Renda familiar:</strong></label>
@@ -74,7 +71,7 @@ session_start();
 
             <div class="campo">
                 <label><strong>Nome do Responsável:</strong></label>
-                <input type="text" name="nomeresp" id="nomeresp">
+                <input type="text" name="nomeresp" id="nomeresp"/>
                 <label for="sexor"><strong>Sexo:</strong></label>
                 <select name="sexor" id="sexor" required>
                     <option selected disabled value="">Selecione</option>
@@ -93,34 +90,26 @@ session_start();
                     <option>Outros</option>
                 </select>
                 <label><strong>Em caso de outros, descreva:</strong></label>
-                <input type="text" name="escreva" id="escreva">
+                <input type="text" name="escreva" id="escreva"/>
                 <br>
                 <label><strong>CPF do responsável:</strong></label>
-                <input type="number" name="cpf" id="cpf" required>
+                <input type="number" name="cpf" id="cpf" required />
                 <label><strong>Telefone:</strong></label>
-                <input type="number" name="telefone" id="telefone">
+                <input type="number" name="telefone" id="telefone"/>
                 <label><strong>Data de nascimento:</strong></label>
-                <input type="date" name="date2" id="date2" required>
+                <input type="date" name="date2" id="date2" required />
                 <br>
                 <label><strong>Endereço:</strong></label>
-                <input type="text number" name="endereço" id="endereço" required>
+                <input type="text number" name="endereço" id="endereço" required />
                 <label><strong>Email:</strong></label>
-                <input type="email" name="email" id="email"required>
+                <input type="email" name="email" id="email"required />
             </div>
         </fieldset>
-        <b><button type="submit" name="enviar" class="botao" >Enviar</button>
+        <b><button type="submit" name="enviar" class="botao">Enviar</b></button>
      </form>
+<?php
+	include("_footer.php");
+?>
 
-<hr width="100%">
-    <section id="contato">
-        <p>CECOI Vó Maria Félix<br>
-        Rua Carlos Nunes de Paula, 1172 - Jardim Imperial - São José dos Campos <br>
-        Tel: (12) 3966 2823 <br>
-        <br>
-        <a class="face" href="https://www.facebook.com/cecoivomariafelix" target="_blank"><img src="imagens\facebook.png" width="50px"></a>
-        <a class="youtube" href="https://www.youtube.com/channel/UCB-99VOkEEM07VF4VVsP7_g" target="_blank"><img src="imagens\youtube.png" width="50px"></a>
-    </section>
-    <hr width="100%">
-    <footer>Desenvolvido por Grupo Rocket 2021</footer>
 </body>
 </html>

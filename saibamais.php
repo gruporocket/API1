@@ -1,16 +1,35 @@
 <?php
-session_start();
-//include('verifica_login.php');
+$id_adm = isset($_POST['userid']) ? $_POST['userid'] : "";
+
+if ($id_adm != "") {
+    $conection = mysqli_connect("localhost", "root", "", "vomariafelix");
+    $preparado = mysqli_prepare($conection, "delete from admin where id = ?");
+    mysqli_stmt_bind_param($preparado, "i", $id_adm);
+    mysqli_stmt_execute($preparado);
+    header('Location: ../saibamais.php?');
+}
+include("conexao.php");
+
+$consulta = "SELECT `saibatexto`, `saibaend`, `saibatel`, `saibahor`, `saibaatend` FROM `infosite` WHERE `ID`=(1)";
+$con = $conn->query($consulta) or die($mysqli->error); 
+$dado = $con->fetch_array();
+$saibatexto = $dado["saibatexto"];
+$saibaend = $dado["saibaend"];
+$saibatel = $dado["saibatel"];
+$saibahor = $dado["saibahor"];
+$saibaatend = $dado["saibaatend"];
 ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-    content="width=device-width, inicial-scale=1.0">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
     <title>CECOI Vó Maria Félix</title>
-    <link rel="stylesheet" type="text/css" href="style4.php">
+    <link rel="stylesheet" type="text/css" href="./css/style_saibamais.css">
+	<link rel="stylesheet" type="text/css" href="admin/css/admin_header.css">
+    <link rel="stylesheet" type="text/css" href="admin/css/admin.css">
+	<link rel="icon" href="favicon.ico">
 	<style type="text/css"> 
     a:link 
     { 
@@ -18,54 +37,35 @@ session_start();
     } 
     </style>
 </head>
-<body>
-
+<body class="background fundo">
 <?php
-	include("_header.php");
+    $botao_esquerdo['texto'] = "Voltar";
+    $botao_esquerdo['action'] = "alteradmin.php";
+    $welcome["css"] = "welcome-voltar";
+    $botao_direito["css"] = "hidden";
+    include('admin/admin_header.php');
 ?>
+<?php 
 
+	 include("_header.php");
+?>
+<style>
+ h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size:42px;
+    font-weight:lighter;
+    font-stretch: expanded;
+    text-align:center;
+    color:black ;
+	margin-bottom:5pt;
+
+}
+</style>
     <hr>
-    <h2>Conheça o CECOI Escola Vó Maria Félix</h2><br>
+    <h2>Conheça o CECOI Vó Maria Félix</h2><br>
         <section id="texto">
-        <!-- As informações nessa página foram copiadas da página: https://aamu.org.br/escola-vo-maria-felix/ -->
-            <p align="justify"> Cerca de quarenta alunos fizeram parte do ano pioneiro. 
-            Ao longo do tempo este número foi aumentando significativamente, 
-            sendo que hoje a escola conta com cerca de cento e setenta alunos. 
-            No entanto, temos a ânsia de crescer ainda mais. 
-            Queremos aumentar e melhorar as condições do nosso estabelecimento.
-            <br>Já iniciamos trabalhos de ampliação, 
-            e para tal temos contado com a colaboração voluntária dos pais dos nossos alunos. 
-            Contudo, não temos recursos financeiros para realizar muitos dos nossos projetos 
-            e de melhorar ainda mais aquela que é a segunda casa das crianças. 
-            Várias são as inscrições que recebemos anualmente, cerca de 1400.
-            </p>
-            <p align="justify">Porém, por falta de possibilidades, nem todas as crianças podem fazer parte do nosso sonho. 
-            Deste modo, é feita uma seleção que tem como critérios a situação econômica e familiar. 
-            Tentamos ajudar os mais cadenciados, mas também os que podem contribuir mensalmente 
-            com o valor mínimo que a escola pede – 20 reais – para ajudar nas despesas diárias. 
-            Este valor corresponde a 10% do valor das necessidades da escola, sendo que 60% são financiados 
-            pela Prefeitura. Cerca de quatro professoras e nove educadoras preenchem o dia das nossas crianças, 
-            contribuindo para o seu desenvolvimento pessoal e cognitivo.
-            </p>
-            <p align="justify">Os nossos principais fins são: contribuir para o bem-estar, 
-            a valorização pessoal e a plena integração social das crianças e dos jovens que, 
-            por razões de natureza diversa, passam por dificuldades no seu cotidiano.
-            </p>
-            <p align="justify">Para concretizar os seus projetos, a ONG pretende promover a realização, 
-            participação ou patrocínio de ações de caráter cultural, educativo, artístico, 
-            científico, social e de assistência. Por vezes tentamos levar os nossos alunos 
-            a sair da escola em atividades que potenciam o seu desenvolvimento.
-            </p>
-            <p align="justify">Acreditamos que existe uma série de vantagens em colocar as crianças em novas 
-            situações e novos ambientes, para que elas aprendam a lidar com diferentes situações.
-            </p>
-            <p align="justify">Consideramos também que estas saídas contribuem para que a criança conheça 
-            para além da sua realidade diária e sorria com situações novas e agradáveis.
-            </p>
-            <p align="justify">Fazemos o possível para, por exemplo, levá-las à biblioteca do bairro 
-            e uma vez por ano vamos ao clube recreativo Thermas, com o qual temos uma parceria. 
-            As crianças anseiam por este dia desde o começo do ano letivo.</p>
-            </p>
+
+        <p align="justify"> <?php echo($saibatexto) ?> </p>
 
         </section>
                     <!-- Vídeo incorporado do canal no Youtube "Cecoi vó Maria Félix" -->
@@ -75,16 +75,15 @@ session_start();
         
 		<section id="info">
             <p><b>Endereço:</b><br>
-            Rua. Carlos Nunes de Paula, 1172 <br> (Prédios contíguos à Rua Dom João VI, nº 151 e 161) <br>
-            Jardim Imperial – São José dos Campos/SP. CEP: 12.234-000 <br>
+            <?php echo nl2br($saibaend); ?> <br>
             <b>Telefone:</b> <br>
-            (12) 3966-2823 <br>
+            <?php echo($saibatel); ?> <br>
             <b>Horário:</b><br>
-            Segunda a Sexta, das 07:00h às 17:00h <br>
+            <?php echo($saibahor); ?> <br>
             <b>Atendimento:</b><br>
-            Crianças de 0 a 7 anos </p>           
+            <?php echo($saibaatend); ?> </p>           
 		</section>	
-            <!-- Essas informações precisam ser atualizadas pelo cliente -->
+            
 	<hr width="100%">
     <section id="contato">
         <br>
@@ -92,6 +91,6 @@ session_start();
         <a class="youtube" href="https://www.youtube.com/channel/UCB-99VOkEEM07VF4VVsP7_g" target="_blank"><img src="imagens\youtube.png" width="50px"></a>
     </section>
     <hr width="100%">
-    <footer>Desenvolvido por Grupo Rocket 2021</footer>
+    <footer><strong>Desenvolvido por Grupo Rocket 2021</strong></footer>
 </body>
 </html>

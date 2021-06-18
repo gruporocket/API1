@@ -1,16 +1,11 @@
-<?php
-session_start();
-//include('verifica_login.php');
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-    content="width=device-width, inicial-scale=1.0">
-    <title>CECOI Vó Maria Félix</title>
-    <link rel="stylesheet" type="text/css" href="style.php">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" type="text/css" href="./css/style_contato.css">
+	<link rel="icon" href="favicon.ico">
 	<style type="text/css"> 
     a:link 
     { 
@@ -19,7 +14,7 @@ session_start();
     </style>
 </head>
 <body>
-
+<!--Cabeçalho feito na página header.php e incluso nas demais página para simplificar o código-->
 <?php
 	include("_header.php");
 	
@@ -30,18 +25,13 @@ session_start();
 	require './phpmailer/lib/vendor/autoload.php';
 	
 	include_once './phpmailer/conexao.php';
-
-?>
-
-<!--Cabeçalho feito na página header.php e incluso nas demais página para simplificar o código-->
-
-   
-    <link rel="stylesheet" href="style7.php" media="all" />
+?> 
+    <link rel="stylesheet" href="style_contato.css" media="all" />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-     <h2>Contato</h2>
-<section class="contatoform">
-    <h3>Formulário de contato</h3>
+   <hr>
+   <h2>Contato</h2>
+    <section class="contatoform">
+      <h3>Formulário de contato</h3>
 
 <?php
     $data = filter_input_array(INPUT_POST,FILTER_DEFAULT);
@@ -64,7 +54,7 @@ session_start();
                     $mail->Host = 'smtp.gmail.com';
                     $mail->SMTPAuth = true;
                     $mail->Username = 'grupo6api@gmail.com';
-                    $mail->Password = 'F@tec2021';
+                    $mail->Password = '@goravai2021';
                     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                     $mail->Port = 587;
 
@@ -88,37 +78,43 @@ session_start();
             }
         }
         ?>
-	
-	
-	
-	
+
 <!--	if($add_msg->rowCount()){
 		echo "Mensagem enviada com sucesso!";
 	}else{
 		echo "Erro: Mensagem não enviada!";
 	}
 	
-	}
+	} #TESTE
 ?>-->
+     <style>
+ h2 {
+	 font-family: 'Open Sans', sans-serif;
+	 text-align:center;
+ } 
+ textarea {
+	 font-family:'Open Sans', sans-serif;
+ }
+     </style>
 
-    <form name="add_msg" action="" method="POST"  class="form">
-    <p class="nome">
+      <form name="add_msg" action="" method="POST"  class="form">
+      <p class="nome">
         <label for="nome">Nome</label>
         <input id="nome"  name="nome"   type="text" placeholder="Seu Nome"  />
-    </p>
-    <p class="email">
+      </p>
+      <p class="email">
         <label  for="email">E-mail</label>
-        <input id="email"  name="email"  type="text" placeholder="mail@exemplo.com.br" />
-    </p>
-    <p class="text">
+        <input id="email"  name="email"  type="text" placeholder="exemplo@email.com.br" />
+      </p>
+      <p class="text">
         <label  for="mensagem">Mensagem</label>
         <textarea id="mensagem" name="mensagem" type='text' placeholder="Escreva sua mensagem"/></textarea>
-    </p>
-    <p class="submit">
+      </p>
+      <p class="submit">
         <input type="submit" name="submit" value="Enviar" />
-    </p>
-    </form>
-</section>
+      </p>
+      </form>
+    </section>
 <section id="dados">
 <h3>Fale conosco</h3>
    <img src="imagens/phone.png" alt="phone" width="25px"><a class="texto">  Tel: (12) 3966 2823</a><br>
@@ -135,6 +131,7 @@ session_start();
         <a class="youtube" href="https://www.youtube.com/channel/UCB-99VOkEEM07VF4VVsP7_g" target="_blank"><img src="imagens\youtube.png" width="50px"></a>
     </section>
     <hr width="100%">
-    <footer>Desenvolvido por Grupo Rocket 2021</footer>
+<footer><strong>Desenvolvido por Grupo Rocket 2021</strong></footer>
+
 </body>
 </html>
