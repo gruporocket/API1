@@ -120,11 +120,12 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
  [Notepad++](https://notepad-plus-plus.org/)
  ```
 
-- Instalar Composer e CakePHP 
+- Instalar Composer,CakePHP e PHPMailer
 
 ```
 [Composer] (https://getcomposer.org/download/)
 [CakePHP] (https://book.cakephp.org/4/en/installation.html)
+[PHPMailer] (https://github.com/PHPMailer/PHPMailer)
 ```
 
  - Para ter acesso ao Banco de Dados, solicitamos que faça a inserção do arquivo abaixo no serviço de banco de dados (Php MyAdmin, MySQL etc..) de sua preferência.
@@ -138,7 +139,16 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
  - Acesse o servidor:
 
  ```
- http://localhost/...
+Acesso ao Site:
+
+https://localhost/nome_da_pasta/index.php
+
+Acesso Administrador:
+
+https://localhost/nome_da_pasta/admin/login.php
+
+Obs: 
+Nome da pasta nos códigos: ong
  ```
 
 
@@ -150,11 +160,8 @@ Criar um Site Institucional para a ONG "Escola Vó Maria Félix", que atende 250
 
 <ul>
  <li>Francisco Quirino (Scrum Master) <a href="https://github.com/ciscoquirino"> Github |</a><a href="https://www.linkedin.com/in/francisco-quirino-4087281b1"> LinkedIn</a></li>
- <li>Jerre Rodrigues <a href="https://github.com/jerreRodrigues">Github</a></li>
  <li>Juan Freitas  <a href="https://github.com/JuanFreitas094">Github |</a><a href="https://www.linkedin.com/in/juan-freitas-261900b0/"> LinkedIn</a></li>
  <li>Juliana Ramos <a href="https://github.com/JulianaMaria-Lab">Github |</a><a href="https://www.linkedin.com/in/juliana-maria-a0b0a0124"> LinkedIn</a></li>
- <li>Micael Santos </li>
- <li>Paulo Velozo <a href="https://www.linkedin.com/in/paulo-velozo-60a5661ab">LinkedIn</a></li>
  <li>Richard Soares <a href="https://github.com/Richardrafael">Github</a></li>
 
  </ul>
